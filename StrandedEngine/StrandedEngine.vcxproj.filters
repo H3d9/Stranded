@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EngineBase.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\IRenderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.h">
+      <Filter>Math\Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\D3DRenderer.h">
+      <Filter>Render\private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\XMesh.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\XStructures.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\DirectInput.h">
+      <Filter>I/O\private</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\STECamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\IIOSystem.h">
+      <Filter>I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\CommandScript.h">
+      <Filter>Scripts\private</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\IScriptSystem.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\IOKeyMap.h">
+      <Filter>I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\STEMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\STEPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Bounding.h">
+      <Filter>Physics\Bounding</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Ray.h">
+      <Filter>Physics\Ray</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0c283071-1891-4b42-8c03-d3e2b74669b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{3f6c83e8-b617-45e5-80a4-1e35481cea32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{9b42a522-ba60-4aee-8133-1d9c91a8b970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector3">
+      <UniqueIdentifier>{4071d5c9-462b-4947-9e58-e871e01563ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Matrix">
+      <UniqueIdentifier>{b76086df-e9f8-40f5-88f2-9b9584041b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{0d9e5aa1-795b-44ce-9499-1655d5eaaea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{ad30b5ae-0367-4685-a0b6-1900de8729ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{1b81bce5-12ef-432e-b1d2-e8cc466b33f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I/O">
+      <UniqueIdentifier>{1e7bd39e-3596-411b-8211-3fa67714fa39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera\private">
+      <UniqueIdentifier>{3f9246c2-2b6e-43a3-8508-c642b74675de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{761d1778-6303-4b97-b239-66f04bf608f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\private">
+      <UniqueIdentifier>{13999b21-7659-4d53-90a6-2f05b2f425ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{ce43a998-d05e-466d-ab93-b2e72bc9447f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Bounding">
+      <UniqueIdentifier>{e52971e2-9559-4b31-9b72-0a6a4162f884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Ray">
+      <UniqueIdentifier>{71d5bf54-c0e8-4578-9c7d-a378df0484a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMode">
+      <UniqueIdentifier>{bbc336c9-8c6f-45cc-8ba3-0b8499b4c6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I/O\private">
+      <UniqueIdentifier>{faecbfe0-6cb1-4144-b5bc-dde7f32a9f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\private">
+      <UniqueIdentifier>{8b33d68c-b804-4660-a30b-d88061c2610b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Math\Vector.cpp">
+      <Filter>Math\Vector3</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\D3DRenderer.cpp">
+      <Filter>Render\private</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\XMesh.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\XStructures.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\DirectInput.cpp">
+      <Filter>I/O\private</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera\private</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\CommandScript.cpp">
+      <Filter>Scripts\private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Bounding.cpp">
+      <Filter>Physics\Bounding</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Ray.cpp">
+      <Filter>Physics\Ray</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

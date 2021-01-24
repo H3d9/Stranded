@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="Levels.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="GameBase.cpp">
+      <Filter>GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineBasic.cpp">
+      <Filter>EngineBasic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameMain.h" />
+    <ClInclude Include="Levels.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="GameBase.h">
+      <Filter>GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDef.h">
+      <Filter>EngineBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBasic.h">
+      <Filter>EngineBasic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameBase">
+      <UniqueIdentifier>{759d6ff9-d9c2-47d3-9fa0-476c4b5a7865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBasic">
+      <UniqueIdentifier>{fae3483b-7ecd-45a9-9452-86c8aa3f6b1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

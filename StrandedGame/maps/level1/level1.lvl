@@ -1,0 +1,36 @@
+#Set Camera.
+SetCamera 0 1 0 0 1 1 0 1 0
+#Load Skybox.
+#LoadSkyBoxAsX "maps/skybox.x"
+#Load terrain.
+LoadTerrainAsX "maps/level1/level1.x"
+#Load Static Models.
+#LoadStaticModelAsX "maps/level1/house.x" 0 -2 0 0 0 0
+LoadStaticModelAsX "maps/level1/house.x" 0 -2 90 0 0 0
+LoadStaticModelAsX "maps/level1/house.x" 45 -2 90 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" -45 -2 90 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" 25 -2 140 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" -25 -2 140 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" 0 -2 -90 0 180 0
+LoadStaticModelAsX "maps/level1/house.x" 45 -2 -90 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" -45 -2 -90 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" 25 -2 -140 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" -25 -2 -140 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" 85 -2 0 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" 85 -2 40.0 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" 85 -2 -40 0 90 0
+LoadStaticModelAsX "maps/level1/house.x" -85 -2 0 0 270 0
+LoadStaticModelAsX "maps/level1/house.x" -85 -2 40.0 0 270 0
+LoadStaticModelAsX "maps/level1/house.x" -85 -2 -40 0 270 0
+#Load Artifact Models.
+LoadArtifactModelAsX "maps/artifact.x" -90 -1 -80 0 0 0
+LoadArtifactModelAsX "maps/artifact.x" 90 -1 80 0 0 0
+LoadArtifactModelAsX "maps/artifact.x" -90 -1 80 0 0 0
+LoadArtifactModelAsX "maps/artifact.x" 90 -1 -80 0 0 0
+#Load Enemies.
+LoadCharacterModelAsX "maps/agent.x" -75 -2 -80 0 0 0
+LoadCharacterModelAsX "maps/agent.x" 75 -2 -80 0 0 0
+LoadCharacterModelAsX "maps/agent.x" -75 -2 80 0 180 0
+LoadCharacterModelAsX "maps/robot.x" 75 -2 80 0 180 0
+#Load Gun.
+LoadGunsAsX "maps/Awm.x" 1.5 -0.5 -25 0 180 0
