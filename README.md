@@ -1,8 +1,6 @@
 # Stranded for VS2019
 
-```
 <img src="./demo.png">
-```
 
 ## 玩法
 WASD移动，鼠标左键开火。<br>
