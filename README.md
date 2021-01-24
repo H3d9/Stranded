@@ -1,6 +1,6 @@
 # Stranded for VS2019
 
-
+https://github.com/H3d9/Stranded/blob/master/demo.png<br>
 
 ## 玩法
 WASD移动，鼠标左键开火。<br>
